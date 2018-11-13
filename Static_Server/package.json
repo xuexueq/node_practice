@@ -20,5 +20,8 @@
         "babel-eslint": "^10.0.1",
         "eslint": "^5.9.0",
         "pre-commit": "^1.2.2"
+    },
+    "dependencies": {
+        "handlebars": "^4.0.12"
     }
 }
