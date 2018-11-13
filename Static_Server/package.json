@@ -1,0 +1,24 @@
+{
+    "name": "static_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "lint",
+        "fix"
+    ],
+    "keywords": [
+        "node"
+    ],
+    "author": "xuexueq",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.9.0",
+        "pre-commit": "^1.2.2"
+    }
+}
